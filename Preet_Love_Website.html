@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Preet ♡</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,serif;background:#fff0f6;color:#54263d;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:14px 7%;display:flex;justify-content:space-between;align-items:center;background:#251a35e8;backdrop-filter:blur(10px);color:#fff}
+.logo{font-size:22px;color:#ffb4d2}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:100px 20px 50px;position:relative;background:radial-gradient(circle at 50% 25%,#ff9fc7,#9d6bc3 45%,#21152e 100%);overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle,#fff 1px,transparent 2px);background-size:55px 55px;opacity:.18;animation:drift 12s linear infinite}
+.hero-content{position:relative;z-index:2;color:white;max-width:720px;animation:rise 1.2s ease}
+.hero h1{font-size:clamp(48px,10vw,90px);color:#fff;text-shadow:0 0 25px #ff79ae}
+.hero p{font-size:20px;line-height:1.7;margin:20px 0}
+.btn{display:inline-block;padding:14px 28px;border-radius:30px;background:#ff4f94;color:white;text-decoration:none;box-shadow:0 8px 25px #0003;transition:.3s}
+.btn:hover{transform:scale(1.07)}
+section{padding:80px 7%;text-align:center}
+.title{font-size:42px;color:#a62d69;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px;max-width:1100px;margin:auto}
+.card{background:#ffffffb8;border:1px solid #fff;border-radius:24px;padding:28px;box-shadow:0 12px 30px #a93b7020;transition:.35s}
+.card:hover{transform:translateY(-9px) rotate(1deg)}
+.card .emoji{font-size:40px;margin-bottom:12px}
+.card h3{color:#c23b78;margin-bottom:10px}
+.card p{line-height:1.6}
+.promises{background:linear-gradient(135deg,#ffd7e7,#ead5ff)}
+.promise{display:flex;align-items:center;text-align:left;gap:14px;padding:17px 20px;border-radius:25px;background:#ffffffb8}
+.promise span{font-size:28px}
+.letter-section{background:radial-gradient(circle at 50% 0,#60406e,#171225);color:white}
+.envelope-wrap{height:350px;display:grid;place-items:center}
+.envelope{width:310px;height:205px;position:relative;cursor:pointer}
+.env-body{position:absolute;inset:0;background:#ff8fb7;border-radius:12px;box-shadow:0 15px 40px #0006}
+.flap{position:absolute;left:0;top:0;border-left:155px solid transparent;border-right:155px solid transparent;border-top:110px solid #ffb0ca;transform-origin:top;transition:1s;z-index:4}
+.paper{position:absolute;left:15px;bottom:8px;width:280px;min-height:185px;background:#fffaf0;color:#5d3445;padding:20px;border-radius:8px;text-align:left;z-index:2;transition:1s;line-height:1.55}
+.envelope.open .flap{transform:rotateX(180deg)}
+.envelope.open .paper{transform:translateY(-125px);z-index:5}
+.hint{margin-top:20px;color:#ffd1e3}
+footer{padding:30px;text-align:center;background:#171225;color:#ffc2dc}
+.heart{position:fixed;bottom:-30px;z-index:30;pointer-events:none;animation:float 5s linear forwards}
+@keyframes rise{from{opacity:0;transform:translateY(35px)}to{opacity:1;transform:none}}
+@keyframes drift{to{transform:translateY(55px)}}
+@keyframes float{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@media(max-width:650px){nav a{margin-left:8px;font-size:11px}.logo{font-size:18px}.title{font-size:32px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">For Preet ♡</div>
+  <div>
+    <a href="#home">Home</a><a href="#special">Special</a><a href="#promises">Promises</a><a href="#letter">Love Letter</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-content">
+    <div style="font-size:60px">♡</div>
+    <h1>Hey Preet...</h1>
+    <p>This little website is just for you.<br>A small surprise to make you smile and remind you how special you are. ♡</p>
+    <a class="btn" href="#special">Explore Our Little World ♥</a>
+  </div>
+</header>
+
+<section id="special">
+  <h2 class="title">♡ Why You're Special ♡</h2>
+  <div class="cards">
+    <div class="card"><div class="emoji">😊</div><h3>Your Smile</h3><p>Your smile has a way of making ordinary moments feel special.</p></div>
+    <div class="card"><div class="emoji">🌸</div><h3>The Little Things</h3><p>I love the little things that make you completely you.</p></div>
+    <div class="card"><div class="emoji">✨</div><h3>Your Vibe</h3><p>You bring your own kind of happiness wherever you are.</p></div>
+    <div class="card"><div class="emoji">💗</div><h3>Your Kindness</h3><p>Your caring nature is one of the things that makes you memorable.</p></div>
+    <div class="card"><div class="emoji">👑</div><h3>Simply You</h3><p>You don't have to be perfect. Being yourself is already special.</p></div>
+  </div>
+</section>
+
+<section class="promises" id="promises">
+  <h2 class="title">♡ Cute Promises ♡</h2>
+  <div class="cards">
+    <div class="promise"><span>💗</span><p>I promise to always respect you and your feelings.</p></div>
+    <div class="promise"><span>🌟</span><p>I promise to treasure the little moments we share.</p></div>
+    <div class="promise"><span>👂</span><p>I promise to listen whenever you need someone to talk to.</p></div>
+    <div class="promise"><span>🔒</span><p>I promise to always be honest, caring and genuine with you.</p></div>
+    <div class="promise"><span>😊</span><p>I promise to keep trying to make you smile.</p></div>
+    <div class="promise"><span>🌷</span><p>I promise that your happiness will always matter to me.</p></div>
+  </div>
+</section>
+
+<section class="letter-section" id="letter">
+  <h2 class="title" style="color:#ffb7d5">♡ Love Letter ♡</h2>
+  <p>Tap the envelope to open my little letter... 💌</p>
+  <div class="envelope-wrap">
+    <div class="envelope" onclick="this.classList.toggle('open');burst()">
+      <div class="env-body"></div>
+      <div class="paper"><b>Dear Preet, ♡</b><br><br>
+        I don't always know the perfect words to say, so I made this little website instead.<br><br>
+        I just wanted you to know that you're genuinely special to me. Your smile, your little habits, your personality and all those tiny things that make you who you are are what make you unforgettable.<br><br>
+        I hope whenever you see this, you smile a little. 🌷<br><br>
+        Take care of yourself and keep being the amazing person you are.<br><br>
+        With lots of love,<br><b>Someone who cares about you ♡</b>
+      </div>
+      <div class="flap"></div>
+    </div>
+  </div>
+  <div class="hint">Tap the envelope again to close it 💕</div>
+</section>
+
+<footer>Made with ♡ specially for Preet ♡<br><br>You are pretty special. Don't forget that. ✨</footer>
+
+<script>
+function heart(){
+  const h=document.createElement('div');
+  h.className='heart';
+  h.textContent=['♥','♡','💗','💕','✨','🌸'][Math.floor(Math.random()*6)];
+  h.style.left=Math.random()*100+'vw';
+  h.style.fontSize=15+Math.random()*20+'px';
+  h.style.animationDuration=4+Math.random()*4+'s';
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),8000);
+}
+setInterval(heart,900);
+function burst(){for(let i=0;i<15;i++)setTimeout(heart,i*70)}
+</script>
+</body>
+</html>
